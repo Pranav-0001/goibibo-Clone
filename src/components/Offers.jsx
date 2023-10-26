@@ -7,11 +7,12 @@ const Offers = () => {
     const [hotel,setHotel]=useState({})
 
     return (
-        <div className='w-full flex justify-center pt-10 relative top-10'>
+        <>
+        <div className='w-full flex justify-center pt-10  '>
             <div className='w-3/4 bg-white rounded-xl shadow px-12'>
                 <h1 className='font-bold  text-lg text-center py-3 '>Offers For You</h1>
                 <div className='flex px-6 justify-between'>
-                    <div className='flex gap-4'>
+                    <div className=' gap-2 md:gap-4 hidden md:flex'>
                         <p>All</p>
                         <p>Bank Offers</p>
                         <p>Flights</p>
@@ -38,6 +39,7 @@ const Offers = () => {
             {confirm&&<Confirm hotel={hotel} close={setConfirm}/>}
 
         </div>
+        </> 
     )
 }
 

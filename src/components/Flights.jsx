@@ -3,7 +3,7 @@ import { TripForm, fairType } from '../constants'
 
 const Flights = () => {
   return (
-    <div className='w-full h-96 bg-no-repeat bg-cover bg-center '  style={{backgroundImage:'url("/Bg.svg")'}}>
+    <div className='w-full  bg-no-repeat bg-cover bg-center '  style={{backgroundImage:'url("/Bg.svg")'}}>
         <h1 className='font-bold text-xl text-white text-center py-4'>Domestic and International Flights</h1>
       <div className='flex justify-center lg:px-60 px-3 '>
         <div className='w-full bg-white shadow-md  rounded-md px-3 py-3'>

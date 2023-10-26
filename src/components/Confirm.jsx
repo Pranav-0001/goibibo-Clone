@@ -4,7 +4,7 @@ import React from 'react'
 
 const Confirm = ({hotel,close}) => {
   return (
-    <div className='w-full absolute bottom-60  flex justify-center px-2 '>
+    <div className='w-full absolute bottom-40  flex justify-center px-2 '>
       <div className='lg:w-1/4 w-full bg-white py-5 shadow'>
         <div className='flex justify-end p-3'>
 <h1><FontAwesomeIcon onClick={()=>close(false)} className='bg-[#ff6d38] text-white p-2 rounded-full' icon={faClose}/></h1>
