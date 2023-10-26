@@ -1,0 +1,2 @@
+export const TripForm=[{name:"from",type:"text"},{name:"to",type:"text"},{name:"Departure",type:"date"},{name:"return",type:"date"},{name:"Travellers&Class",type:'text'}]
+export const fairType=["Regular","Senior Citizen","Student","Doctors & Nurses"]
